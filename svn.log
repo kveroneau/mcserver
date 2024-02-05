@@ -1,0 +1,117 @@
+------------------------------------------------------------------------
+r29 | kveroneau | 2023-01-24 10:49:34 -0700 (Tue, 24 Jan 2023) | 1 line
+
+Added file-based logging to the Memory Card Server.
+------------------------------------------------------------------------
+r28 | kveroneau | 2023-01-24 10:35:27 -0700 (Tue, 24 Jan 2023) | 1 line
+
+Added support for UNIX signals to assist with stopping the server, and initial work on user management.
+------------------------------------------------------------------------
+r27 | kveroneau | 2022-01-30 18:34:40 -0700 (Sun, 30 Jan 2022) | 1 line
+
+Adding Python 3 netcard library.
+------------------------------------------------------------------------
+r26 | kveroneau | 2021-12-18 17:50:32 -0700 (Sat, 18 Dec 2021) | 1 line
+
+Added Memory Card Server CLI program.
+------------------------------------------------------------------------
+r25 | kveroneau | 2021-12-18 13:15:28 -0700 (Sat, 18 Dec 2021) | 1 line
+
+Initial commit of MCCLI Tool.
+------------------------------------------------------------------------
+r24 | kveroneau | 2021-10-28 23:24:43 -0600 (Thu, 28 Oct 2021) | 1 line
+
+Fix to mcconfig when updating authdata.
+------------------------------------------------------------------------
+r23 | kveroneau | 2021-10-27 21:23:32 -0600 (Wed, 27 Oct 2021) | 1 line
+
+Updated order of operations for WriteBlock sending.
+------------------------------------------------------------------------
+r22 | kveroneau | 2021-10-05 18:40:16 -0600 (Tue, 05 Oct 2021) | 1 line
+
+Added Dockerfile and run.sh.
+------------------------------------------------------------------------
+r21 | kveroneau | 2021-10-05 17:26:25 -0600 (Tue, 05 Oct 2021) | 1 line
+
+Added mcinit program.
+------------------------------------------------------------------------
+r20 | kveroneau | 2021-10-04 23:36:32 -0600 (Mon, 04 Oct 2021) | 1 line
+
+Added card management via root card config block.
+------------------------------------------------------------------------
+r19 | kveroneau | 2021-10-04 23:12:05 -0600 (Mon, 04 Oct 2021) | 1 line
+
+Added code to test out new exceptions and authorization system.
+------------------------------------------------------------------------
+r18 | kveroneau | 2021-10-04 23:11:32 -0600 (Mon, 04 Oct 2021) | 1 line
+
+Added exceptions and handling, and finalized authorization system.
+------------------------------------------------------------------------
+r17 | kveroneau | 2021-10-04 21:04:43 -0600 (Mon, 04 Oct 2021) | 1 line
+
+Added support for setting prefix for memory card data files.
+------------------------------------------------------------------------
+r16 | kveroneau | 2021-10-03 22:42:10 -0600 (Sun, 03 Oct 2021) | 1 line
+
+Added basic auth test.
+------------------------------------------------------------------------
+r15 | kveroneau | 2021-10-03 22:41:14 -0600 (Sun, 03 Oct 2021) | 1 line
+
+Finished access control system, still needs testing.
+------------------------------------------------------------------------
+r14 | kveroneau | 2021-09-30 00:32:39 -0600 (Thu, 30 Sep 2021) | 1 line
+
+Began implementing auth config.
+------------------------------------------------------------------------
+r13 | kveroneau | 2021-09-25 18:45:09 -0600 (Sat, 25 Sep 2021) | 1 line
+
+Added BlockList tests and the clearing of test data.
+------------------------------------------------------------------------
+r12 | kveroneau | 2021-09-25 18:43:56 -0600 (Sat, 25 Sep 2021) | 1 line
+
+Added BlockList support and MCConfig to server.
+------------------------------------------------------------------------
+r11 | kveroneau | 2021-09-21 18:15:17 -0600 (Tue, 21 Sep 2021) | 1 line
+
+Added op code to unsubscribe.
+------------------------------------------------------------------------
+r10 | kveroneau | 2021-09-20 20:48:53 -0600 (Mon, 20 Sep 2021) | 1 line
+
+Completed subscription system.
+------------------------------------------------------------------------
+r9 | kveroneau | 2021-09-19 20:10:13 -0600 (Sun, 19 Sep 2021) | 1 line
+
+Started work on the Subscription system.
+------------------------------------------------------------------------
+r8 | kveroneau | 2021-09-17 12:00:23 -0600 (Fri, 17 Sep 2021) | 1 line
+
+Added more tests.
+------------------------------------------------------------------------
+r7 | kveroneau | 2021-09-17 11:59:16 -0600 (Fri, 17 Sep 2021) | 1 line
+
+Added many operations to the server.
+------------------------------------------------------------------------
+r6 | kveroneau | 2021-09-17 10:52:09 -0600 (Fri, 17 Sep 2021) | 1 line
+
+Added WriteBlock testing to mctester.
+------------------------------------------------------------------------
+r5 | kveroneau | 2021-09-17 10:51:21 -0600 (Fri, 17 Sep 2021) | 1 line
+
+Completed WriteBlock support and enabled Authentication checking throughout.
+------------------------------------------------------------------------
+r4 | kveroneau | 2021-09-16 23:42:23 -0600 (Thu, 16 Sep 2021) | 1 line
+
+Added mctester project.
+------------------------------------------------------------------------
+r3 | kveroneau | 2021-09-16 23:39:30 -0600 (Thu, 16 Sep 2021) | 1 line
+
+Created new MCPool unit, many updates and lots of progress.
+------------------------------------------------------------------------
+r2 | kveroneau | 2021-09-16 19:18:21 -0600 (Thu, 16 Sep 2021) | 1 line
+
+Created initial server c code.
+------------------------------------------------------------------------
+r1 | kveroneau | 2021-09-16 17:44:35 -0600 (Thu, 16 Sep 2021) | 1 line
+
+Initial commit of svn structure.
+------------------------------------------------------------------------
